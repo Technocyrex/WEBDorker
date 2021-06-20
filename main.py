@@ -708,4 +708,4 @@ def index():
 if __name__ == '__main__':
     data = json.load(open("apps.json.py", "r"))
     freeze_support()
-    app.run(debug=True, port=1337, use_reloader=False, host="0.0.0.0")
+    app.run(debug=True, port=6969, use_reloader=False, host="0.0.0.0")
